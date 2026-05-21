@@ -63,8 +63,6 @@ public class TranscriptionController {
         // Delete temp file
         tempFile.delete();
 
-        var c = "100";
-
         return ResponseEntity.ok(response.getResult().getOutput());
     }
 }
