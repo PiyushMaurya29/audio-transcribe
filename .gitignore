@@ -14,10 +14,11 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +32,48 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Logs ###
+*.log
+logs/
+
+### Env / Secrets ###
+.env
+.env.*
+application-local.properties
+application-secret.properties
+*.pem
+*.key
+
+### Java Compiled Files ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Maven ###
+dependency-reduced-pom.xml
+
+### Temporary Files ###
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+### Test / Coverage ###
+coverage/
+*.exec
+
+### Node (if frontend later) ###
+node_modules/
+dist/
+
+### Python (if scripts later) ###
+__pycache__/
+*.pyc
