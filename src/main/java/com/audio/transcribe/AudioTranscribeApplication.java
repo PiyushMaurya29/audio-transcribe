@@ -8,7 +8,6 @@ public class AudioTranscribeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AudioTranscribeApplication.class, args);
-		var z = 'z';
 	}
 
 }
